@@ -162,7 +162,7 @@ li{
     margin-left: 120px;
     margin-right: 120px;
     padding: 120px;
-    background-image: linear-gradient(to right , #ec5215, rgb(80, 194, 86));
+    background-image: linear-gradient(to right , #1818ee 60%, rgb(219, 234, 219));
 }
 .motivation{
     font-weight: 700;
