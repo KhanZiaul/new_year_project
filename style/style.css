@@ -145,16 +145,19 @@ li{
     font-size: 30px;
     color: #151414;
     margin-top: 10px;
+    text-align: center;
 }
 .plan_description{
     margin-top: 16px;
-    padding-left: 29px;
+    text-align: center;
 }
 .plan_icon{
     margin-top: 30px;
-    margin-left: 33px;
+    margin-left: 25px;
 }
-
+.plan_icon3{
+    margin-left: 50px; 
+}
 /* Phone-call section */
 
 .phone-call_background{
