@@ -5,7 +5,8 @@
     padding: 0;
     font-family: 'Oxygen', sans-serif;
 }
-/*webpage banner */
+
+/* Banner */
 
 .banner{
     background-image: url('../images/banner/banner2.png');
@@ -24,7 +25,7 @@
     padding-top: 120px;
     padding-left: 700px;
 }
-.about_banner{
+.banner_summary{
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
@@ -51,7 +52,8 @@
     margin-right: 150px;
 }
 
-/* how to be successful */
+/* Success Section */
+
 .success{
     display: flex;
     justify-content: space-between;
@@ -59,29 +61,32 @@
     margin-right: 100px;
     margin-top: 131px;
 }
-.success_image{
-    height: 468px;
-    width: 623.3px;
-    border-radius: 5px;
-}
-.success_cause{
+.success_head{
     margin-left: 120px;
     margin-top: 50px;
     margin-right: 80px;
 }
-.success_cause_title{
+.success_title{
     font-weight: 900;
     font-size: 40px;
  }
-.success_cause_summary{
+.success_summary{
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-top: 24px;
 }
-.success_cause_list{
+.success_procedure{
     margin-top: 24px;
-} 
+}
+.success_image{
+    height: 468px;
+    width: 623.3px;
+    border-radius: 5px;
+}
+
+/* List of success and failure*/
+
 li{
     list-style-position:inside;
     list-style-image: url('../images/icons/tick.png');
@@ -89,7 +94,7 @@ li{
     color: #444343;
 }   
 
-/* failure section */
+/* Failure section */
 
 .failure{
     display: flex;
@@ -98,79 +103,155 @@ li{
     margin-right: 150px;
     margin-top: 131px;
 }
-.failure_cause{
-margin-left: 120px;
-margin-top: 80px;
+.failure_head{
+    margin-left: 120px;
+    margin-top: 80px;
 }
-.failure_cause_title{
+.failure_title{
     font-weight: 900;
     font-size: 40px;
 }
-.failure_cause_summary{
+.failure_summary{
     font-weight: 400;
     font-size: 16px;
     color: #444343;
     margin-top: 24px;
 }
-.failure_cause_list{
+.failure_procedure{
     margin-top: 24px;
 }
 
-/* plan */
+/* Plan section */
 
 .plan{
-   margin-top: 100px;
-   padding: 200px;
-}
-.plan_icon{
-margin-top: 30px;
-margin-left: 33px;
-}
-.plan_title_head{
-   font-weight: bolder;
-   font-size: 60px;
-   color: #151414;
-   text-align: center;  
+    margin-top: 100px;
+    padding: 200px;
 }
 .plan_title{
-    font-weight: 700;
-    font-size: 30px;
+    font-weight: bolder;
+    font-size: 60px;
     color: #151414;
-    margin-top: 10px;
-}
-.my_plan{
+    text-align: center;  
+ }
+ .my_plan{
     display: flex;
     justify-content: space-between;
 }
 .idea{
     margin-top: 70px;
 }
+.icon_title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 10px;
+}
 .plan_description{
     margin-top: 16px;
     padding-left: 29px;
 }
-/* contact*/
-.contact_call_background{
+.plan_icon{
+    margin-top: 30px;
+    margin-left: 33px;
+}
+
+/* Phone-call section */
+
+.phone-call_background{
     border-radius: 8px;
-    margin-left: 220px;
-    width:700px;
-    height:100px;
-    padding: 100px;
+    margin-left: 120px;
+    margin-right: 120px;
+    padding: 120px;
     background-image: linear-gradient(to right , #ec5215, rgb(80, 194, 86));
 }
-.small_motivation{
+.motivation{
     font-weight: 700;
     font-size: 40px;
     color: #FFFFFF;
     padding-right: 350px;
 }
-.call_button{
+.phone_button{
     margin-top: 24px;
     width: 160px;
     height: 64px;
     font-weight: 600;
     font-size: 20px;
     color: #F15B22;
-    border-radius: 5px;
+    border-radius: 7px;
     border:none;
+}
+
+/* Author information */
+
+.author_information{
+    margin-top:170px;
+    display: flex;
+    justify-content: space-between;
+    height:200px;
+    background-color: #151414;
+    padding:200px;
+}
+.author{
+    padding-right:300px;
+}
+.info_title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #FFFFFF; 
+}
+.info_description{
+    font-weight: 400;
+    font-size: 12px;
+    color: #FFFFFF;
+    margin-top:16.7px;
+}
+.author_email{
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top:23px;
+}
+.author_number{
+    font-weight: 400;
+    font-size: 13px;
+    color: #FFFFFF;
+    margin-top:16px;
+}
+.social_media{
+    margin-top:32px;
+}
+.icon_gap{
+    margin-right: 12px;
+    height: 30px;
+}
+
+/* Data from visitor */
+
+.visitor_title{
+    font-weight: 600;
+    font-size: 17px;
+    color: #FFFFFF;
+}
+#visitor_mail{
+    margin-top:31px;
+    width: 250px;
+    height: 42px;
+    border-radius:8px;
+    border: 2px solid white;
+    padding-left: 10px;
+    background-color: #151414;
+}
+::placeholder{
+    color: rgb(219, 211, 211);
+}
+#subscribe{
+    margin-top:16px;
+    width: 130px;
+    height: 45px;
+    border-radius:8px;
+    border: 0;
+    color:#F15B22;
+    background-color: white;
+    font-weight: 600;
+    font-size: 16px;
 }
