@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Open Sans', sans-serif;
 }
+/*webpage banner */
 .banner{
     background-image: url('../images/banner/banner2.png');
     background-repeat: no-repeat;
@@ -44,4 +46,73 @@
     justify-content: right;
     margin-top: 32px;
     margin-right: 230px;
+}
+/* failure section */
+.failure{
+    display: flex;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 215px;
+    padding-top: 131px;
+}
+.failure_cause{
+padding-left: 120px;
+padding-top: 250px;
+padding-bottom: 80px;
+}
+.failure_cause_title{
+    font-weight: 700;
+    font-size: 40px;
+    font-weight: 900;
+    font-size: 40px;
+}
+.failure_cause_summary{
+    font-weight: 400;
+    font-size: 16px;
+    color: #444343;
+    padding-top: 24px;
+}
+.failure_cause_list{
+    padding-top: 24px;
+}
+li{
+   list-style-position:inside;
+   list-style-image: url('../images/icons/tick.png');
+   padding-top: 8px;
+   color: #444343;
+}
+/* plan */
+.plan{
+   margin-top: 150px;
+   padding: 200px;
+}
+.plan_icon{
+margin-top: 30px;
+margin-left: 33px;
+}
+.plan_title_head{
+   font-weight: 700;
+   font-size: 50px;
+   color: #151414;
+   text-align: center;  
+}
+.plan_title{
+    font-weight: 700;
+    font-size: 30px;
+    color: #151414;
+    margin-top: 10px;
+}
+.plan_title1{
+margin-right:0px;
+}
+.my_plan{
+    display: flex;
+    justify-content: space-between;
+}
+.idea{
+    margin-top: 70px;
+}
+.plan_description{
+    margin-top: 16px;
+    padding-left: 29px;
 }
